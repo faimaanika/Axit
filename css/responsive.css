@@ -1,0 +1,268 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+
+    .navbar-toggler {
+    background-color: #f1a40c;
+}
+
+.banner-section {
+    height: 55vh;
+}
+
+.banner-section .content {
+  text-align: center;
+   height: 65vh;
+}
+
+
+.banner-section .content h1 {
+   font-size: 35px;
+    margin-right: 25px;
+    margin-top: -70px;
+}
+
+.banner-section .content h2 {
+    font-size: 20px;
+    margin-right:0px;
+    padding-right: 0px;
+}
+.banner-section .content .line {
+    width: 76px;
+    margin: 20px 120px;
+}
+
+
+.banner-section .content p {
+    font-size: 16px;
+    font-weight: 300;
+    padding-right: 10px;
+}
+
+.main-form {
+    height: 0vh;
+    padding-top: 0px;
+    display: none;
+}
+
+.social-part .social-section {
+    text-align: center;
+}
+
+.icon {
+    display: none;
+}
+
+.Tab-section {
+    margin-top: 55px;
+}
+
+.d-flex {
+    margin-top: 50px;
+}
+
+.d-flex .tab-content {
+    margin-left: 25px;
+}
+
+.Tab-section .tab-img {
+    margin-top: 50px;
+    margin-left: -40px;
+}
+
+.sub-section img, svg {
+    margin-right: 34px;
+}
+.sub-section .sub-details {
+    margin-top: 40px;
+    margin-left:0px;
+}
+.sub-section h2 {
+    margin-left:0px;
+}
+.sub-section .part-1 p1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #a7a7a7;
+    text-transform: inherit;
+    margin-right: 0px;
+}
+
+.sub-section {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.sub-main-img{
+    width: 100%;
+    height: auto;
+}
+
+.sub-section .sub-details .line {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 130px;
+}
+
+
+.sub-section .sub-details p {
+    margin-right: 10px;
+}
+
+
+.sub-section .sub-details ul li h3 {
+    margin-left: -35px;
+}
+
+
+.sub-section .sub-details ul li p {
+    margin-right: 45px;
+}
+
+
+.standerd-section {
+   margin-top: 0px;
+}
+
+.standerd-section img{
+   width: 100%;
+   height: auto;
+}
+
+.standerd-section .stnd-list {
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+.standerd-section .stnd-list .line {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 120px;
+}
+
+
+.standerd-section .stnd-list p {
+    margin-right: 0px;
+}
+
+
+.standerd-section .stnd-img {
+    padding-left: 0px;
+    padding-top: 25px;
+}
+
+
+.why-section {
+    margin-top: 50px;
+}
+
+
+.why-section .part-1 h2 {
+    font-size: 30px;
+}
+
+.layer-section {
+    margin-top: 15px;
+}
+
+.layer-section .img-layer {
+    margin-top: 0px;
+    margin-left: -25px;
+}
+
+.pricing-section {
+    padding: 50px 0px;
+    margin-top: 10px;
+}
+
+.price-table {
+    margin-top: 20px;
+    padding: 0px;
+}
+
+
+.review-section {
+    padding: 50px 0px;
+     margin-top:0px;
+}
+
+.review-section .content {
+    margin-right: 0px;
+}
+
+.review-section img, svg {
+    margin-left: 100px;
+}
+
+.review-section .intro {
+    margin-top: 8px;
+    margin-left: 90px;
+}
+
+.review-section .tittle h2 {
+    font-size: 25px;
+}
+
+}
